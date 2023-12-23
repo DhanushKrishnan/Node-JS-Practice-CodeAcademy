@@ -25,3 +25,29 @@ let verb = 'watch tv';
 let noun3 = 'bread';
 
 console.log(`The world's first ${noun1} was a very ${adjective} ${noun2} who loved to ${verb} while eating ${noun3} for every meal.`);
+
+// ********** To Get list of Builtin Modules *****************//
+>node
+>require('modules').builtinModules
+
+
+// **********  Console Module *****************//
+const petsArray = ['dog', 'cat', 'bird', 'monkey'];
+
+// Add console methods below!
+console.log(petsArray);
+console.table(petsArray);
+console.assert(petsArray.length>5);
+
+// OUTPUT:
+[ 'dog', 'cat', 'bird', 'monkey' ]
+┌─────────┬──────────┐
+│ (index) │  Values  │
+├─────────┼──────────┤
+│    0    │  'dog'   │
+│    1    │  'cat'   │
+│    2    │  'bird'  │
+│    3    │ 'monkey' │
+└─────────┴──────────┘
+Assertion failed
+
